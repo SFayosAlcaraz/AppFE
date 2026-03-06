@@ -35,7 +35,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Client",
+              "Title": "Client.csproj",
               "DocumentMoniker": "C:\\Users\\sergi\\VSCode_Repos\\PruebasFE\\AppFE\\Client\\Client.csproj",
               "RelativeDocumentMoniker": "Client\\Client.csproj",
               "ToolTip": "C:\\Users\\sergi\\VSCode_Repos\\PruebasFE\\AppFE\\Client\\Client.csproj",
@@ -48,7 +48,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Api",
+              "Title": "Api.csproj",
               "DocumentMoniker": "C:\\Users\\sergi\\VSCode_Repos\\PruebasFE\\AppFE\\Api\\Api.csproj",
               "RelativeDocumentMoniker": "Api\\Api.csproj",
               "ToolTip": "C:\\Users\\sergi\\VSCode_Repos\\PruebasFE\\AppFE\\Api\\Api.csproj",

@@ -1032,11 +1032,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\u
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\927plkmk2o-{0}-tptq2av103-tptq2av103.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\fv852almvh-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\ga4tohpf6k-{0}-oyz0vx2fzb-oyz0vx2fzb.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\caqjtfuwlt-{0}-ttfpazin82-ttfpazin82.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\x8etihqgd2-{0}-ydct526lcb-ydct526lcb.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\kb90l4x90i-{0}-skvtd8r2wr-skvtd8r2wr.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-{0}-zlfwksfbvg-zlfwksfbvg.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-{0}-57wgubvrv5-57wgubvrv5.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\staticwebassets.development.json
@@ -1048,3 +1043,8 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\Client.dll
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\refint\Client.dll
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\kb90l4x90i-{0}-mdkt91yfia-mdkt91yfia.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\nrce2f7bjz-{0}-ujbepjs25g-ujbepjs25g.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\caqjtfuwlt-{0}-kjplqf9db8-kjplqf9db8.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\x8etihqgd2-{0}-z03gld9k1j-z03gld9k1j.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net8.0\compressed\0kih5qk3hm-{0}-phygkb9n2w-phygkb9n2w.gz

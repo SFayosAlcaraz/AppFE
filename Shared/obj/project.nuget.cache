@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WcVR+XUuCn4=",
+  "dgSpecHash": "XKXcsz5v1GY=",
   "success": true,
   "projectFilePath": "C:\\Users\\sergi\\VSCode_Repos\\PruebasFE\\AppFE\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

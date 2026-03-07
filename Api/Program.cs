@@ -1,14 +1,20 @@
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Azure.Functions.Worker.Builder;
+using Microsoft.Extensions.Hosting; // <--- ESTE ES EL IMPORTANTE
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Azure.Functions.Worker;
+using TuProyecto.Api.Data;
+using System;
 
-var builder = FunctionsApplication.CreateBuilder(args);
+var host = new HostBuilder()
+    .ConfigureFunctionsWorkerDefaults()
+    .ConfigureServices(services =>
+    {
+        string connectionString = Environment.GetEnvironmentVariable("SqlConnectionString") 
+            ?? throw new InvalidOperationException("Falta la cadena de conexión SqlConnectionString");
 
-builder.ConfigureFunctionsWebApplication();
+        services.AddDbContext<ApplicationDbContext>(options =>
+            options.UseSqlServer(connectionString));
+    })
+    .Build();
 
-builder.Services
-    .AddApplicationInsightsTelemetryWorkerService()
-    .ConfigureFunctionsApplicationInsights();
-
-builder.Build().Run();
+host.Run();

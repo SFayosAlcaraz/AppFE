@@ -1,4 +1,4 @@
-namespace AppFE.Api.Data // <--- Fíjate bien en este nombre
+namespace Api.Data
 {
     public class ApplicationDbContext : DbContext
     {

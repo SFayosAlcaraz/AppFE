@@ -1,36 +1,29 @@
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.Functions.Worker.Http;
-using Shared;
-using Api.Data;
-
-namespace Api;
-
-public class EmpresasFunction
+namespace Api
 {
-        private readonly ApplicationDbContext _context;
+    public class EmpresasFunction
+    {
+            private readonly ApplicationDbContext _context;
 
-        public EmpresasFunction(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+            public EmpresasFunction(ApplicationDbContext context)
+            {
+                _context = context;
+            }
 
-        [Function("GetEmpresas")]
-        public async Task<HttpResponseData> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "empresas")] HttpRequestData req)
-        {
-            // Consultar datos
-            var listado = await _context.empresas.ToListAsync();
+            [Function("GetEmpresas")]
+            public async Task<HttpResponseData> Run(
+                [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "empresas")] HttpRequestData req)
+            {
+                // Consultar datos
+                var listado = await _context.empresas.ToListAsync();
 
-            // Crear respuesta
-            var response = req.CreateResponse(HttpStatusCode.OK);
+                // Crear respuesta
+                var response = req.CreateResponse(HttpStatusCode.OK);
             
-            // Escribir el JSON (esto requiere Microsoft.Azure.Functions.Worker.Http)
-            await response.WriteAsJsonAsync(listado);
+                // Escribir el JSON (esto requiere Microsoft.Azure.Functions.Worker.Http)
+                await response.WriteAsJsonAsync(listado);
 
-            return response;
-        }
+                return response;
+            }
+    }
+
 }
-

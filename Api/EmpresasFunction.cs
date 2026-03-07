@@ -20,4 +20,16 @@ public class EmpresasFunction
         _logger.LogInformation("C# HTTP trigger function processed a request.");
         return new OkObjectResult("Welcome to Azure Functions!");
     }
+    [Function("GetEmpresas")]
+    public async Task<HttpResponseData> Run(
+    [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "empresas")] HttpRequestData req)
+    {
+        // El DbContext ya tiene la conexión gracias a lo que configuramos en el Program.cs
+        var listado = await _context.empresas.ToListAsync();
+
+        var response = req.CreateResponse(HttpStatusCode.OK);
+        await response.WriteAsJsonAsync(listado);
+
+       return response;
+    }
 }

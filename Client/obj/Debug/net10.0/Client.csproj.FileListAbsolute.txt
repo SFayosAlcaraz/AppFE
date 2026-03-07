@@ -1,6 +1,4 @@
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\Client.runtimeconfig.json
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.iznyi81tou.pdb
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.xnhvw95a41.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.jnskqyrki7.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.pe34czp7g7.wasm
@@ -33,8 +31,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.VisualBasic.ohmdjdo4x8.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.Win32.Primitives.54qaw3y2l7.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.Win32.Registry.5zehcbadkc.wasm
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.1vh9kr33r0.pdb
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.2nf5q58w23.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.AppContext.hb972rswn2.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Buffers.fmh1lqxxe8.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Collections.Concurrent.wrpunq2dmd.wasm
@@ -201,7 +197,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.gxdw562h4s.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\WindowsBase.itp3e5i1h2.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.66stpp682q.js
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.4p1ohrrwgz.js
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js.map
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.native.2mv1pqdd2n.wasm
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.native.69poregybn.js
@@ -286,7 +281,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Private.DataContractSerialization.ya7w2p8he6.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Runtime.Extensions.gm74y2bo0g.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.5j2hllj6bi.wasm.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.2nf5q58w23.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.ComponentModel.Annotations.kzcs3roxpa.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js.map.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.IO.FileSystem.Watcher.ontoty1fxn.wasm.gz
@@ -327,7 +321,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Net.WebHeaderCollection.5uas6gg592.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Net.gmaqhpvzve.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Linq.Expressions.uudylx04pc.wasm.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.xnhvw95a41.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Net.NetworkInformation.vqv9utc4ui.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Collections.Concurrent.wrpunq2dmd.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.IO.Compression.ZipFile.0imvrnvy4f.wasm.gz
@@ -343,7 +336,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Runtime.Serialization.Json.8dz8w33dsz.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.5li0z45f7b.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Private.CoreLib.mwo4f5vsvi.wasm.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.iznyi81tou.pdb.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.IO.Pipes.f4dn7kellq.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.8nsm8mjj5e.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Reflection.Metadata.9jlh4rmm5n.wasm.gz
@@ -407,7 +399,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.runtime.js.map.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Xml.o33u56xp8u.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.ctfxrq7l33.wasm.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.1vh9kr33r0.pdb.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Collections.oyg9o5jzra.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Resources.Reader.xlkk3ynoru.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.CSharp.gijew29e7v.wasm.gz
@@ -416,7 +407,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_fr
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Reflection.Primitives.yippb5hjvi.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Security.hy6omngq8z.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.IO.FileSystem.cfijc526tp.wasm.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.4p1ohrrwgz.js.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Runtime.69m00wu7n6.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Security.Cryptography.Primitives.wfl2haanmw.wasm.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\System.Xml.XmlSerializer.v02wvgnobf.wasm.gz
@@ -1118,12 +1108,6 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\ujej6durna-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\927plkmk2o-{0}-tptq2av103-tptq2av103.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\fv852almvh-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\caqjtfuwlt-{0}-2nf5q58w23-2nf5q58w23.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\x8etihqgd2-{0}-1vh9kr33r0-1vh9kr33r0.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\kb90l4x90i-{0}-xnhvw95a41-xnhvw95a41.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\nrce2f7bjz-{0}-iznyi81tou-iznyi81tou.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\yjj70ie8zx-{0}-4p1ohrrwgz-4p1ohrrwgz.gz
-C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\3z13kd3lra-{0}-byqroc655g-byqroc655g.gz
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\staticwebassets.development.json
@@ -1134,3 +1118,19 @@ C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\Client.dll
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\refint\Client.dll
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\Client.pdb
 C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\ref\Client.dll
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.28vk2m4a4p.wasm
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.upgkomqktb.pdb
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.d7m0s8hkv6.wasm
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.f8239xuf2s.pdb
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.797r43srdo.js
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.d7m0s8hkv6.wasm.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.28vk2m4a4p.wasm.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Client.upgkomqktb.pdb.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\Shared.f8239xuf2s.pdb.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.797r43srdo.js.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\caqjtfuwlt-{0}-d7m0s8hkv6-d7m0s8hkv6.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\x8etihqgd2-{0}-f8239xuf2s-f8239xuf2s.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\kb90l4x90i-{0}-28vk2m4a4p-28vk2m4a4p.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\nrce2f7bjz-{0}-upgkomqktb-upgkomqktb.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\yjj70ie8zx-{0}-797r43srdo-797r43srdo.gz
+C:\Users\sergi\VSCode_Repos\PruebasFE\AppFE\Client\obj\Debug\net10.0\compressed\3z13kd3lra-{0}-l3owkvv9pj-l3owkvv9pj.gz

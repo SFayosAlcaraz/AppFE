@@ -7,6 +7,8 @@
 <div class="container mt-4">
     <h2>Empresas</h2>
 
+    <button class="btn btn-primary mb-3" @onclick="LoadEmpresas">Cargar Empresas</button>
+
     @if (empresas == null)
     {
         <p><em>Cargando datos desde Azure...</em></p>
@@ -41,6 +43,11 @@
     private List<Empresa>? empresas;
 
     protected override async Task OnInitializedAsync()
+    {
+        await LoadEmpresas();
+    }
+
+    private async Task LoadEmpresas()
     {
         try 
         {

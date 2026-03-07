@@ -2,7 +2,7 @@ using Microsoft.Extensions.Hosting; // <--- ESTE ES EL IMPORTANTE
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Azure.Functions.Worker;
-using TuProyecto.Api.Data;
+using AppFE.Api.Data;
 using System;
 
 var host = new HostBuilder()

@@ -3,15 +3,11 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker.Http;
-using AppFFE.Shared;
 
 namespace Api;
 
 public class EmpresasFunction
 {
-
-    public class EmpresasFunction
-    {
         private readonly ApplicationDbContext _context;
 
         public EmpresasFunction(ApplicationDbContext context)
@@ -34,6 +30,5 @@ public class EmpresasFunction
 
             return response;
         }
-    }
 }
 

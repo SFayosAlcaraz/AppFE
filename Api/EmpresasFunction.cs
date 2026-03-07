@@ -1,8 +1,4 @@
 using System.Net;
-using Microsoft.Azure.Functions.Worker;
-using Microsoft.Azure.Functions.Worker.Http; // <--- ESTA ES LA CLAVE
-using Microsoft.EntityFrameworkCore;
-using AppFE.Shared;
 
 namespace Api
 {

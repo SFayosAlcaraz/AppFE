@@ -1,6 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using AppFe.Shared;
-
 namespace Api.Data
 {
     public class ApplicationDbContext : DbContext

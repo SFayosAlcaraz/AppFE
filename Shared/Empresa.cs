@@ -1,6 +1,6 @@
 using System;
 
-namespace TuProyecto.Shared
+namespace AppFE.Shared
 {
     public class Empresa
     {

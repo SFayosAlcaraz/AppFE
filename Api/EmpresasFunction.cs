@@ -2,34 +2,38 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Functions.Worker.Http;
+using AppFFE.Shared;
 
 namespace Api;
 
 public class EmpresasFunction
 {
-    private readonly ILogger<EmpresasFunction> _logger;
-
-    public EmpresasFunction(ILogger<EmpresasFunction> logger)
+{
+    public class EmpresasFunction
     {
-        _logger = logger;
-    }
+        private readonly ApplicationDbContext _context;
 
-    [Function("EmpresasFunction")]
-    public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
-    {
-        _logger.LogInformation("C# HTTP trigger function processed a request.");
-        return new OkObjectResult("Welcome to Azure Functions!");
-    }
-    [Function("GetEmpresas")]
-    public async Task<HttpResponseData> Run(
-    [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "empresas")] HttpRequestData req)
-    {
-        // El DbContext ya tiene la conexión gracias a lo que configuramos en el Program.cs
-        var listado = await _context.empresas.ToListAsync();
+        public EmpresasFunction(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-        var response = req.CreateResponse(HttpStatusCode.OK);
-        await response.WriteAsJsonAsync(listado);
+        [Function("GetEmpresas")]
+        public async Task<HttpResponseData> Run(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "empresas")] HttpRequestData req)
+        {
+            // Consultar datos
+            var listado = await _context.empresas.ToListAsync();
 
-       return response;
+            // Crear respuesta
+            var response = req.CreateResponse(HttpStatusCode.OK);
+            
+            // Escribir el JSON (esto requiere Microsoft.Azure.Functions.Worker.Http)
+            await response.WriteAsJsonAsync(listado);
+
+            return response;
+        }
     }
+}
 }

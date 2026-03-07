@@ -3,6 +3,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker.Http;
+using Shared;
+using Api.Data;
 
 namespace Api;
 

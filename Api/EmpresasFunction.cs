@@ -9,7 +9,7 @@ namespace Api;
 
 public class EmpresasFunction
 {
-{
+
     public class EmpresasFunction
     {
         private readonly ApplicationDbContext _context;
@@ -36,4 +36,4 @@ public class EmpresasFunction
         }
     }
 }
-}
+

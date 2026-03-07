@@ -21,7 +21,6 @@ var host = new HostBuilder()
 using (var scope = host.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    context.Database.EnsureCreated();
     
     if (!context.empresas.Any())
     {

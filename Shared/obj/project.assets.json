@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fayos/AppFE/Shared/Shared.csproj",
+      "projectUniqueName": "/home/fayos/azuredev-b762/AppFE/Shared/Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "/home/fayos/AppFE/Shared/Shared.csproj",
+      "projectPath": "/home/fayos/azuredev-b762/AppFE/Shared/Shared.csproj",
       "packagesPath": "/home/fayos/.nuget/packages/",
-      "outputPath": "/home/fayos/AppFE/Shared/obj/",
+      "outputPath": "/home/fayos/azuredev-b762/AppFE/Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fayos/.nuget/NuGet/NuGet.Config"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -59,12 +60,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/fayos/dotnet/sdk/8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

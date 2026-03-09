@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PLd8LUsVm+Q=",
+  "dgSpecHash": "L9S7JitOGCo=",
   "success": true,
-  "projectFilePath": "/home/fayos/AppFE/Client/Client.csproj",
+  "projectFilePath": "/home/fayos/azuredev-b762/AppFE/Client/Client.csproj",
   "expectedPackageFiles": [
     "/home/fayos/.nuget/packages/microsoft.aspnetcore.authorization/8.0.0/microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "/home/fayos/.nuget/packages/microsoft.aspnetcore.components/8.0.0/microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
@@ -28,12 +28,14 @@
     "/home/fayos/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/fayos/.nuget/packages/microsoft.jsinterop/8.0.0/microsoft.jsinterop.8.0.0.nupkg.sha512",
     "/home/fayos/.nuget/packages/microsoft.jsinterop.webassembly/8.0.0/microsoft.jsinterop.webassembly.8.0.0.nupkg.sha512",
-    "/home/fayos/.nuget/packages/microsoft.net.illink.tasks/8.0.8/microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
-    "/home/fayos/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.8/microsoft.net.sdk.webassembly.pack.8.0.8.nupkg.sha512",
+    "/home/fayos/.nuget/packages/microsoft.net.illink.tasks/8.0.22/microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
+    "/home/fayos/.nuget/packages/microsoft.net.sdk.webassembly.pack/9.0.11/microsoft.net.sdk.webassembly.pack.9.0.11.nupkg.sha512",
     "/home/fayos/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/fayos/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/fayos/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/fayos/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.8/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.8.nupkg.sha512"
+    "/home/fayos/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/fayos/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.22/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.22.nupkg.sha512",
+    "/home/fayos/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

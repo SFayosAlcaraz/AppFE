@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MpV1lX2OicU=",
+  "dgSpecHash": "vEtQ0xucs9s=",
   "success": true,
   "projectFilePath": "/home/fayos/azuredev-b762/AppFE/Shared/Shared.csproj",
-  "expectedPackageFiles": [
-    "/home/fayos/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/home/fayos/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

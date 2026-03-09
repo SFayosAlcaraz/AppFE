@@ -2072,11 +2072,6 @@
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/927plkmk2o-tptq2av103.gz
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/fv852almvh-lfu7j35m59.gz
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/ga4tohpf6k-oyz0vx2fzb.gz
-/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/caqjtfuwlt-t28358cyhs.gz
-/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/x8etihqgd2-r12srup0bq.gz
-/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/kb90l4x90i-ebkb38y8d3.gz
-/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/nrce2f7bjz-aidzpha1gq.gz
-/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/0kih5qk3hm-ct9e6t6nli.gz
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/staticwebassets.build.json
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/staticwebassets.build.json.cache
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/staticwebassets.development.json
@@ -2086,3 +2081,8 @@
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/refint/Client.dll
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/Client.pdb
 /home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/ref/Client.dll
+/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/caqjtfuwlt-9xrlqzrrqd.gz
+/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/x8etihqgd2-2fgbtsen65.gz
+/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/kb90l4x90i-unpbp8dq55.gz
+/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/nrce2f7bjz-xkdqvn3k10.gz
+/home/fayos/azuredev-b762/AppFE/Client/obj/Debug/net8.0/compressed/0kih5qk3hm-mc6eysmzdw.gz

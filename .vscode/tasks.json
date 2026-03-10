@@ -71,7 +71,7 @@
 			"type": "func",
 			"dependsOn": "build (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/GestionEmpresasSWA\\Api/bin/Debug/net10.0"
+				"cwd": "${workspaceFolder}/GestionEmpresasSWA\\Api/bin/Debug/net8.0"
 			},
 			"command": "host start",
 			"isBackground": true,

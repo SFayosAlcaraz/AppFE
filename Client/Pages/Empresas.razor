@@ -8,6 +8,40 @@
     <h2>Empresas</h2>
 
     <button class="btn btn-primary mb-3" @onclick="LoadEmpresas">Cargar Empresas</button>
+    <button class="btn btn-success mb-3 ms-2" @onclick="NewEmpresa">Nueva Empresa</button>
+
+    @if (editMode)
+    {
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">@((isNew) ? "Añadir empresa" : "Editar empresa")</h5>
+                <EditForm Model="currentEmpresa" OnValidSubmit="HandleValidSubmit">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="mb-3">
+                        <label class="form-label">CIF</label>
+                        <InputText class="form-control" @bind-Value="currentEmpresa.cif" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Nombre</label>
+                        <InputText class="form-control" @bind-Value="currentEmpresa.nombre" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Localidad</label>
+                        <InputText class="form-control" @bind-Value="currentEmpresa.localidad" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Plazas ofertadas</label>
+                        <InputNumber class="form-control" @bind-Value="currentEmpresa.plazas_ofertadas" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary me-2">Guardar</button>
+                    <button type="button" class="btn btn-secondary" @onclick="CancelEdit">Cancelar</button>
+                </EditForm>
+            </div>
+        </div>
+    }
 
     @if (empresas == null)
     {
@@ -22,6 +56,7 @@
                     <th>Nombre</th>
                     <th>Localidad</th>
                     <th>Plazas</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -32,6 +67,9 @@
                         <td>@emp.nombre</td>
                         <td>@emp.localidad</td>
                         <td>@emp.plazas_ofertadas</td>
+                        <td>
+                            <button class="btn btn-sm btn-warning" @onclick="() => EditEmpresa(emp)">Editar</button>
+                        </td>
                     </tr>
                 }
             </tbody>
@@ -41,6 +79,11 @@
 
 @code {
     private List<Empresa>? empresas;
+
+    // form state
+    private Empresa currentEmpresa = new Empresa();
+    private bool editMode = false;
+    private bool isNew = true;
 
     protected override async Task OnInitializedAsync()
     {
@@ -57,6 +100,71 @@
         catch (Exception ex)
         {
             Console.WriteLine($"Error de conexión: {ex.Message}");
+        }
+    }
+
+    private void NewEmpresa()
+    {
+        currentEmpresa = new Empresa();
+        isNew = true;
+        editMode = true;
+    }
+
+    private void EditEmpresa(Empresa emp)
+    {
+        // clone to avoid binding directly to list
+        currentEmpresa = new Empresa
+        {
+            id = emp.id,
+            cif = emp.cif,
+            nombre = emp.nombre,
+            sector = emp.sector,
+            direccion = emp.direccion,
+            localidad = emp.localidad,
+            codigo_postal = emp.codigo_postal,
+            tutor_empresa = emp.tutor_empresa,
+            telefono_contacto = emp.telefono_contacto,
+            email_contacto = emp.email_contacto,
+            plazas_ofertadas = emp.plazas_ofertadas,
+            convenio_activo = emp.convenio_activo,
+            fecha_registro = emp.fecha_registro
+        };
+        isNew = false;
+        editMode = true;
+    }
+
+    private void CancelEdit()
+    {
+        editMode = false;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (isNew)
+        {
+            var resp = await Http.PostAsJsonAsync("/api/empresas", currentEmpresa);
+            if (resp.IsSuccessStatusCode)
+            {
+                await LoadEmpresas();
+                editMode = false;
+            }
+            else
+            {
+                Console.WriteLine("Error al crear empresa: " + resp.ReasonPhrase);
+            }
+        }
+        else
+        {
+            var resp = await Http.PutAsJsonAsync($"/api/empresas/{currentEmpresa.id}", currentEmpresa);
+            if (resp.IsSuccessStatusCode)
+            {
+                await LoadEmpresas();
+                editMode = false;
+            }
+            else
+            {
+                Console.WriteLine("Error al actualizar empresa: " + resp.ReasonPhrase);
+            }
         }
     }
 }

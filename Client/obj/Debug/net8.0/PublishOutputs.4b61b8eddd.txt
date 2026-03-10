@@ -1,0 +1,2 @@
+/home/fayos/azuredev-b762/AppFE/Client/bin/Debug/net8.0/publish/emcc-props.json
+/home/fayos/azuredev-b762/AppFE/Client/bin/Debug/net8.0/publish/web.config
